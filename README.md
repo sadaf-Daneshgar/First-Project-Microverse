@@ -54,9 +54,9 @@
  - Added check errors with linters 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## 🚀 Live Demo <a name="live-demo"></a>
+ 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/sadaf-Daneshgar/First-Project-Microverse.git)
+- [Live Demo Link](https://sadaf-daneshgar.github.io/First-Project-Microverse/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
