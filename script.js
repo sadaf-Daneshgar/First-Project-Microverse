@@ -1,12 +1,12 @@
 const mobileOpen = document.getElementById('open-menu');
 const mobileShow = document.getElementById('navbar-item-mobile');
 const mobileClose = document.getElementById('close-menu');
+const menuItems = document.querySelectorAll('.nav-mobile');
 const popupOpen = document.querySelectorAll('.card-btn');
 const inputName = document.getElementById('user_name');
 const inputEmail = document.getElementById('user_email');
 const sumbitMessage = document.getElementById('sumbit-action');
 const errorMessage = document.getElementById('error');
-
 mobileOpen.addEventListener('click', () => {
   if (mobileShow.style.display === 'block') {
     mobileShow.style.display = 'none';
@@ -14,7 +14,6 @@ mobileOpen.addEventListener('click', () => {
     mobileShow.style.display = 'block';
   }
 });
-
 mobileClose.addEventListener('click', () => {
   if (mobileShow.style.display === 'none') {
     mobileShow.style.display = 'block';
@@ -22,6 +21,11 @@ mobileClose.addEventListener('click', () => {
     mobileShow.style.display = 'none';
   }
 });
+for (let i = 0; i < menuItems.length; i += 1) {
+  menuItems[i].addEventListener('click', () => {
+    mobileShow.style.display = 'none';
+  });
+}
 
 const projectsFullDatiel = [
   {
