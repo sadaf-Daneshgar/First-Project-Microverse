@@ -150,6 +150,14 @@ header {
   margin-bottom: 12px;
 }
 
+/* add the siz for img of awesom book */
+.card-img .awesom {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
 .card-title {
   font-weight: 700;
   font-size: 32px;
@@ -711,6 +719,12 @@ hr.newOne {
     object-fit: cover;
     overflow: hidden;
     object-position: center;
+  }
+
+/* add the siz for img of awesom book */
+  .card-img .awesom {
+    width: 600px;
+    border-radius: 12px;
   }
 
   .card-content {
