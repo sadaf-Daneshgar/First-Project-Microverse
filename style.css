@@ -721,7 +721,7 @@ hr.newOne {
     object-position: center;
   }
 
-/* add the siz for img of awesom book */
+  /* add the siz for img of awesom book */
   .card-img .awesom {
     width: 600px;
     border-radius: 12px;
