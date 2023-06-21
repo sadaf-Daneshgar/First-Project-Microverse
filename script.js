@@ -30,7 +30,7 @@ for (let i = 0; i < menuItems.length; i += 1) {
 const projectsFullDatiel = [
   {
     name: 'AweSome Book',
-    projectInformation: { org: 'CANOPY', type: 'Back End Dev', year: '2015' },
+    projectInformation: { org: 'AweSome Library', type: 'Book Shelf', year: '2023' },
     projectImage: 'image/awsom-book.png',
     projectDescription: 'Awesom Library is an app that you can add the name of book and the name of author of the book, also you can delete the book from the list and also store that into local storage.',
     projectLanguages: ['HTML', 'CSS', 'JAVASCRIPT'],
