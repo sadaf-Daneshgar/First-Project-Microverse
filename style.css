@@ -41,6 +41,7 @@ header {
 .logo-class {
   font-weight: 700;
   font-size: 18px;
+  margin-top: 12px;
   line-height: 20px;
   color: #6070ff;
   cursor: pointer;
@@ -148,6 +149,14 @@ header {
 .card-img {
   margin-top: 16px;
   margin-bottom: 12px;
+}
+
+/* add the siz for img of awesom book */
+.card-img .awesom {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .card-title {
@@ -711,6 +720,12 @@ hr.newOne {
     object-fit: cover;
     overflow: hidden;
     object-position: center;
+  }
+
+  /* add the siz for img of awesom book */
+  .card-img .awesom {
+    width: 600px;
+    border-radius: 12px;
   }
 
   .card-content {
