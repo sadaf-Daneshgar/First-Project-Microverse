@@ -40,6 +40,7 @@ header {
 
 .logo-class {
   font-weight: 700;
+  padding-top: 10px;
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
@@ -608,6 +609,7 @@ hr.newOne {
 
   .logo-class:hover {
     transform: scale(1.2);
+    color: #d22222;
   }
 
   .icons:hover {
