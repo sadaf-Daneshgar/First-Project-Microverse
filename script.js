@@ -29,13 +29,13 @@ for (let i = 0; i < menuItems.length; i += 1) {
 
 const projectsFullDatiel = [
   {
-    name: 'Tonic',
-    projectInformation: { org: 'CANOPY', type: 'Back End Dev', year: '2015' },
-    projectImage: 'image/disk-card3.svg',
-    projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    projectLanguages: ['HTML', 'CSS', 'JAVASCRIPT'],
-    projectLiveLink: 'https://sadaf-daneshgar.github.io/First-Project-Microverse/',
-    projectSourceCode: 'https://github.com/sadaf-Daneshgar/First-Project-Microverse',
+    name: 'Page to page Book Library',
+    projectInformation: { org: 'Library', type: 'Full-stack Dev', year: '2024' },
+    projectImage: 'image/library.PNG',
+    projectDescription: 'This project is a web application that allows users to reserve books from a library.The user can also see the list of books that are available in the library.',
+    projectLanguages: ['CSS', 'React-Redux', 'PostgreSQL', 'Ruby on Rails'],
+    projectLiveLink: 'https://page-to-page.onrender.com/',
+    projectSourceCode: 'https://github.com/sadaf-Daneshgar/Page-To-page-Library-Frontend',
     PorjectLiveSource: '<i class="fa-brands fa-github"></i>',
     ProjectLiveIcons: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
     ProjectLiveText: 'See Live',

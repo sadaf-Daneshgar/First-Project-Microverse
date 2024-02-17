@@ -1061,4 +1061,9 @@ hr.newOne {
     width: 100%;
     justify-content: center;
   }
+
+  .card-img img {
+    width: 300px;
+    height: 300px;
+  }
 }
