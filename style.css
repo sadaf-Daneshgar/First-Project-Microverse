@@ -865,8 +865,13 @@ hr.newOne {
     justify-content: flex-start;
     align-items: flex-start;
     width: 30%;
-    height: 18vh;
+    height: 15vh;
     padding-top: 0.5rem;
+  }
+
+  .ruby {
+    width: 50px;
+    height: 50px;
   }
 
   .framework,
