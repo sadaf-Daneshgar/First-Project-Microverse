@@ -146,6 +146,11 @@ header {
   align-items: center;
 }
 
+.card:hover {
+  box-shadow: 0 0 0 1px #d3d3d3;
+  transform: scale(1.01);
+}
+
 .card-img {
   margin-top: 16px;
   margin-bottom: 12px;
@@ -335,6 +340,8 @@ header {
   color: #fff;
   background-color: #396df2;
   transition: 1s ease-in-out;
+  box-shadow: 0 0 0 1px #d3d3d3;
+  transform: scale(1.2);
 }
 
 .about-lang {
@@ -663,6 +670,15 @@ hr.newOne {
     font-size: 48px;
     line-height: 60px;
     color: rgba(9, 30, 66, 1);
+    text-transform: capitalize;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: example;
+  }
+
+  @keyframes example {
+    from { color: rgba(9, 30, 66, 1); }
+    to { color: #6070ff; }
   }
 
   .hero-section-description {
@@ -771,10 +787,18 @@ hr.newOne {
     background-color: #6070ff;
     color: #fff;
     cursor: pointer;
+    animation-name: example2;
+    animation-duration: 1.5s;
+    border: none;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example2 {
+    from { background-color: #6070ff; }
+    to { background-color: red; }
   }
 
   .card-btn:hover {
-    color: #6070ff;
     background-color: #fff;
     transition: 1s ease-in-out;
   }
@@ -1027,6 +1051,19 @@ hr.newOne {
   padding: 8px 9px;
   border-radius: 8px;
   cursor: pointer;
+  animation-name: example3;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example3 {
+  from {
+    background-color: #6070ff;
+  }
+
+  to {
+    background-color: #fff;
+  }
 }
 
 .link-button:hover {
