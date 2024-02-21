@@ -107,8 +107,8 @@ for (let i = 0; i < popupOpen.length; i += 1) {
 <li class="language-item">${projectsFullDatiel[i].projectLanguages[2]}<li>
  </ul>
  <div class="popup-button">
- <div class="link-button"><a href=${projectsFullDatiel[i].projectLiveLink} class="link-a">${projectsFullDatiel[0].ProjectLiveText} ${projectsFullDatiel[0].ProjectLiveIcons}</a></div>
- <div class="link-button"><a href=${projectsFullDatiel[i].projectSourceCode} class="link-a">${projectsFullDatiel[0].ProjectSourceText} ${projectsFullDatiel[0].PorjectLiveSource}</a></div>
+ <div class="link-button"><a href=${projectsFullDatiel[i].projectLiveLink} class="link-a" target="_blank">${projectsFullDatiel[0].ProjectLiveText} ${projectsFullDatiel[0].ProjectLiveIcons}</a></div>
+ <div class="link-button"><a href=${projectsFullDatiel[i].projectSourceCode} class="link-a" target="_blank">${projectsFullDatiel[0].ProjectSourceText} ${projectsFullDatiel[0].PorjectLiveSource}</a></div>
  </.div>
  </div>
  </div>
