@@ -25,7 +25,8 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Personal_Portfolio] <a name="about-project"></a>
-   **[Portfolio]** is a project to give a summary of my portfolio.
+
+This project is a simple website that contains my personal information, my projects, and my contact information. It is a simple website that is built using HTML, CSS, and JavaScript. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -115,7 +116,7 @@ You can deploy this project using:
 
 - GitHub: [@githubhandle](https://github.com/sadaf-Daneshgar)
 - Twitter: [@twitterhandle](https://twitter.com/SadafDaneshgar)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sadaf-barekzai-00480a242)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sadaf-daneshgar-2002saba/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
