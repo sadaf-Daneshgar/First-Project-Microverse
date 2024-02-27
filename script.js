@@ -31,7 +31,7 @@ const projectsFullDatiel = [
   {
     name: 'Page to page Book Library',
     projectInformation: { org: 'Library', type: 'Full-stack Dev', year: '2024' },
-    projectImage: 'image/library.PNG',
+    projectImage: 'image/library.jpg',
     projectDescription: 'This project is a web application that allows users to reserve books from a library.The user can also see the list of books that are available in the library.',
     projectLanguages: ['Ruby on Rails', 'React-Redux', 'PostgreSQL', 'CSS'],
     projectLiveLink: 'https://page-to-page.onrender.com/',
