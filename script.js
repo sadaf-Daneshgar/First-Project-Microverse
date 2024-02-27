@@ -7,6 +7,16 @@ const inputName = document.getElementById('user_name');
 const inputEmail = document.getElementById('user_email');
 const sumbitMessage = document.getElementById('sumbit-action');
 const errorMessage = document.getElementById('error');
+const header = document.querySelector('header');
+
+function hideHeader() {
+  header.classList.add('hide-header');
+}
+
+function showHeader() {
+  header.classList.remove('hide-header');
+}
+
 mobileOpen.addEventListener('click', () => {
   if (mobileShow.style.display === 'block') {
     mobileShow.style.display = 'none';
@@ -85,6 +95,7 @@ const projectsFullDatiel = [
 
 for (let i = 0; i < popupOpen.length; i += 1) {
   popupOpen[i].addEventListener('click', () => {
+    hideHeader();
     const popupContainer = document.createElement('div');
     popupContainer.innerHTML = `
  <div class="cover-container">
@@ -121,6 +132,7 @@ for (let i = 0; i < popupOpen.length; i += 1) {
 
     popupClose.addEventListener('click', () => {
       document.body.removeChild(popupContainer);
+      showHeader();
     });
   });
 }

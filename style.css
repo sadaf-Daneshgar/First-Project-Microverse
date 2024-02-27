@@ -41,6 +41,10 @@ header {
   z-index: 10;
 }
 
+.hide-header{
+  display: none;
+}
+
 .logo-class {
   font-weight: 700;
   padding-top: 10px;
