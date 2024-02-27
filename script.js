@@ -81,7 +81,7 @@ const projectsFullDatiel = [
   {
     name: 'Space Travelers Hub',
     projectInformation: { org: 'Space Travelers Hub', type: 'Front-end Dev', year: '2023' },
-    projectImage: 'image/rocket.png',
+    projectImage: 'image/rocket.PNG',
     projectDescription: 'Space Travelers Hub, is a web application for a company that provides commercial and scientific space travel services.The application will allow users to book rockets and join selected space missions.',
     projectLanguages: ['React-Redux', 'ECMAScript', 'JAVASCRIPT', 'CSS', 'HTML'],
     projectLiveLink: 'https://react-group-capstone-qwsc.vercel.app/',
