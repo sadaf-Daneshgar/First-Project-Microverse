@@ -155,7 +155,8 @@ header {
 
 .card:hover {
   box-shadow: 0 0 0 1px #d3d3d3;
-  transform: scale(1.01);
+  transform: scale(1.03);
+  border: 1px solid #6070ff;
 }
 
 .card-img {
@@ -234,6 +235,14 @@ header {
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.subject:hover {
+  background-color: #6070ff;
+  color: #fff;
+  transition: 1s ease-in-out;
+  transform: scale(1.2);
 }
 
 #hide {
@@ -258,6 +267,7 @@ header {
   color: #fff;
   background-color: #396df2;
   transition: 1s ease-in-out;
+  transform: scale(1.2);
 }
 
 .about-page {
@@ -632,7 +642,8 @@ hr.newOne {
   }
 
   .icons:hover {
-    transform: scale(1.1);
+    transform: scale(2.0);
+    transition: 0.5s ease-in-out;
   }
 
   #hide {
