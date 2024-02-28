@@ -998,26 +998,28 @@ hr.newOne {
 }
 
 .popup-container {
-  top: 7%;
-  left: 45%;
+  top: 7.5%;
+  left: 50%;
   width: 80%;
   height: 90vh;
-
-  /* height: auto; */
   transform: translate(-50%, -50%);
   background: #fff;
-  padding: 14px;
+  padding: 120px 40px;
+  display: flex;
+  flex-direction: column;
   border-radius: 15px;
   position: relative;
-  margin: 4%;
+  align-items: center;
+  justify-content: center;
   background-color: white;
   z-index: 1;
-  overflow-y: scroll;
+  overflow: hidden;
 }
 
 .popup-name {
   font-size: 30px;
   color: #091e42;
+  padding-top: 12px;
 }
 
 #popup-close {
@@ -1034,7 +1036,8 @@ hr.newOne {
 }
 
 .project-image {
-  width: 100%;
+  width: 700px;
+  height: 100%;
 }
 
 .bottom-container {
@@ -1115,12 +1118,20 @@ hr.newOne {
   .link-button {
     font-size: 11px;
     padding: 6px 7px;
-    margin: 15px 10px;
+    margin: 15px 22px;
   }
 
   #popup-close {
     width: 20px;
     right: 20px;
+  }
+
+  .popup-container {
+    overflow-y: scroll;
+  }
+
+  .project-image {
+    width: 100%;
   }
 
   .bottom-container {
@@ -1129,6 +1140,7 @@ hr.newOne {
 
   .project-des {
     width: 90%;
+    padding-left: 14px;
   }
 
   .second-container {
