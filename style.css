@@ -29,17 +29,25 @@ body {
 }
 
 header {
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  padding: 10px;
+  background: #fff;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 90%;
-  margin: 1em auto;
-  margin-top: 0;
-  padding-top: 16px;
+  text-align: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.hide-header {
+  display: none;
 }
 
 .logo-class {
   font-weight: 700;
+  padding-top: 10px;
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
@@ -62,8 +70,9 @@ header {
 }
 
 .humbargar {
-  width: 20px;
-  height: 3px;
+  width: 60px;
+  padding-top: 6px;
+  font-size: 25px;
   color: #6070ff;
   border-radius: 8px;
   cursor: pointer;
@@ -73,7 +82,7 @@ header {
   width: 100%;
   background-image: url("image/header-shapes\ mobile.png.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   display: flex;
   justify-content: center;
   background-color: #fff;
@@ -82,7 +91,6 @@ header {
 
 .hero-section-container {
   width: 90%;
-  height: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -90,7 +98,7 @@ header {
 
 .hero-section-heading {
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.7rem;
   line-height: 52px;
   width: 100%;
   height: max-content;
@@ -143,6 +151,16 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.card-reverse {
+  margin-bottom: 3rem;
+}
+
+.card:hover {
+  box-shadow: 0 0 0 1px #d3d3d3;
+  transform: scale(1.03);
+  border: 1px solid #6070ff;
 }
 
 .card-img {
@@ -221,6 +239,14 @@ header {
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.subject:hover {
+  background-color: #6070ff;
+  color: #fff;
+  transition: 1s ease-in-out;
+  transform: scale(1.2);
 }
 
 #hide {
@@ -245,6 +271,7 @@ header {
   color: #fff;
   background-color: #396df2;
   transition: 1s ease-in-out;
+  transform: scale(1.2);
 }
 
 .about-page {
@@ -261,11 +288,11 @@ header {
   width: 90%;
   height: auto;
   padding-bottom: 6rem;
-  border-top-right-radius: 90px;
+  border-top-right-radius: 6rem;
 }
 
 .about-content {
-  padding-top: 10rem;
+  padding-top: 7.5rem;
 }
 
 .about-title {
@@ -334,6 +361,8 @@ header {
   color: #fff;
   background-color: #396df2;
   transition: 1s ease-in-out;
+  box-shadow: 0 0 0 1px #d3d3d3;
+  transform: scale(1.2);
 }
 
 .about-lang {
@@ -405,6 +434,11 @@ header {
   font-size: 15px;
   line-height: 20px;
   color: #253858;
+}
+
+.ruby {
+  width: 50px;
+  height: 50px;
 }
 
 .framework {
@@ -603,15 +637,17 @@ hr.newOne {
   }
 
   .logo-class {
-    margin-left: 80px;
+    margin-left: 160px;
   }
 
   .logo-class:hover {
     transform: scale(1.2);
+    color: #d22222;
   }
 
   .icons:hover {
-    transform: scale(1.1);
+    transform: scale(2);
+    transition: 0.5s ease-in-out;
   }
 
   #hide {
@@ -621,7 +657,7 @@ hr.newOne {
   .navbar-item {
     display: flex;
     gap: 1.5rem;
-    margin-right: 3.5rem;
+    margin-right: 14rem;
     list-style-type: none;
     font-weight: 500;
     font-size: 15px;
@@ -641,7 +677,7 @@ hr.newOne {
   }
 
   .hero-section-container {
-    margin-top: 3rem;
+    margin-top: 6rem;
     background-image: url("image/desktop-back.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -657,10 +693,19 @@ hr.newOne {
   }
 
   .hero-section-heading {
-    width: 50%;
+    width: 93%;
     font-size: 48px;
     line-height: 60px;
     color: rgba(9, 30, 66, 1);
+    text-transform: capitalize;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: example;
+  }
+
+  @keyframes example {
+    from { color: rgba(9, 30, 66, 1); }
+    to { color: #6070ff; }
   }
 
   .hero-section-description {
@@ -671,6 +716,7 @@ hr.newOne {
 
   .hero-section {
     background-image: none;
+    width: 100%;
   }
 
   /* Work Section */
@@ -706,11 +752,8 @@ hr.newOne {
   }
 
   .card-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-    object-position: center;
+    width: 555px;
+    height: 448px;
   }
 
   .card-content {
@@ -769,10 +812,18 @@ hr.newOne {
     background-color: #6070ff;
     color: #fff;
     cursor: pointer;
+    animation-name: example2;
+    animation-duration: 1.5s;
+    border: none;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example2 {
+    from { background-color: #6070ff; }
+    to { background-color: red; }
   }
 
   .card-btn:hover {
-    color: #6070ff;
     background-color: #fff;
     transition: 1s ease-in-out;
   }
@@ -839,7 +890,7 @@ hr.newOne {
     justify-content: flex-start;
     align-items: flex-start;
     width: 30%;
-    height: 18vh;
+    height: 15vh;
     padding-top: 0.5rem;
   }
 
@@ -940,27 +991,35 @@ hr.newOne {
 /** popup model style **/
 .cover-container {
   top: 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 4720px;
   background: rgba(150, 150, 150, 0.295);
 }
 
 .popup-container {
-  position: absolute;
-  top: 25%;
+  top: 7.5%;
   left: 50%;
   width: 80%;
-  height: auto;
+  height: 90vh;
   transform: translate(-50%, -50%);
   background: #fff;
-  padding: 10px;
+  padding: 120px 40px;
+  display: flex;
+  flex-direction: column;
   border-radius: 15px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .popup-name {
   font-size: 30px;
   color: #091e42;
+  padding-top: 12px;
 }
 
 #popup-close {
@@ -977,7 +1036,8 @@ hr.newOne {
 }
 
 .project-image {
-  width: 100%;
+  width: 700px;
+  height: 100%;
 }
 
 .bottom-container {
@@ -1018,13 +1078,26 @@ hr.newOne {
 }
 
 .link-button {
-  margin: 25px 20px;
+  margin: 25px 10px;
   font-size: 13px;
   color: #7f8cff;
   border: 1px solid #7f8cff;
   padding: 8px 9px;
   border-radius: 8px;
   cursor: pointer;
+  animation-name: example3;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example3 {
+  from {
+    background-color: #6070ff;
+  }
+
+  to {
+    background-color: #fff;
+  }
 }
 
 .link-button:hover {
@@ -1042,9 +1115,23 @@ hr.newOne {
     font-size: 22px;
   }
 
+  .link-button {
+    font-size: 11px;
+    padding: 6px 7px;
+    margin: 15px 22px;
+  }
+
   #popup-close {
     width: 20px;
     right: 20px;
+  }
+
+  .popup-container {
+    overflow-y: scroll;
+  }
+
+  .project-image {
+    width: 100%;
   }
 
   .bottom-container {
@@ -1053,10 +1140,16 @@ hr.newOne {
 
   .project-des {
     width: 90%;
+    padding-left: 14px;
   }
 
   .second-container {
     width: 100%;
     justify-content: center;
+  }
+
+  .card-img img {
+    width: 300px;
+    height: 220px;
   }
 }

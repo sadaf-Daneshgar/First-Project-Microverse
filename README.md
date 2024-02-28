@@ -1,4 +1,4 @@
-<!-- TABLE OF CONTENTS -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=B388EB&random=false&width=435&lines=Welcome+to+my+personal+portfolio!" alt="Typing SVG" /></a>
 
 # 📗 Table of Contents
 
@@ -25,7 +25,8 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Personal_Portfolio] <a name="about-project"></a>
-   **[Portfolio]** is a project to give a summary of my portfolio.
+
+This project is a simple website that contains my personal information, my projects, and my contact information. It is a simple website that is built using HTML, CSS, and JavaScript. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -56,7 +57,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://sadaf-daneshgar.github.io/First-Project-Microverse/)
+- [Live Demo Link](https://sadaf-portfolio.vercel.app/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -115,7 +116,7 @@ You can deploy this project using:
 
 - GitHub: [@githubhandle](https://github.com/sadaf-Daneshgar)
 - Twitter: [@twitterhandle](https://twitter.com/SadafDaneshgar)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sadaf-barekzai-00480a242)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sadaf-daneshgar-2002saba/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
