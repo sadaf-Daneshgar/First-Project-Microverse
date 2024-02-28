@@ -1075,7 +1075,7 @@ hr.newOne {
 }
 
 .link-button {
-  margin: 25px 20px;
+  margin: 25px 10px;
   font-size: 13px;
   color: #7f8cff;
   border: 1px solid #7f8cff;
@@ -1110,6 +1110,12 @@ hr.newOne {
 @media screen and (max-width: 765px) {
   .popup-name {
     font-size: 22px;
+  }
+
+  .link-button {
+    font-size: 11px;
+    padding: 6px 7px;
+    margin: 15px 10px;
   }
 
   #popup-close {

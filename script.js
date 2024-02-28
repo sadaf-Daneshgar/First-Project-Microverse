@@ -94,7 +94,9 @@ const projectsFullDatiel = [
 ];
 
 for (let i = 0; i < popupOpen.length; i += 1) {
-  popupOpen[i].addEventListener('click', () => {
+  popupOpen[i].addEventListener('click', (event) => {
+    event.preventDefault();
+    const currentScrollPosition = window.scrollY;
     hideHeader();
     const popupContainer = document.createElement('div');
     popupContainer.innerHTML = `
@@ -133,6 +135,7 @@ for (let i = 0; i < popupOpen.length; i += 1) {
     popupClose.addEventListener('click', () => {
       document.body.removeChild(popupContainer);
       showHeader();
+      window.scrollTo(0, currentScrollPosition);
     });
   });
 }
